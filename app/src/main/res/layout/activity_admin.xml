@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="100dp"
+    android:layout_marginLeft="25dp"
+    android:fontFamily="sans-serif-black"
+    android:text="Hello Admin! Please enter your login details!"
+    android:textSize="24sp"/>
+
+<EditText
+android:id="@+id/edit_text_nameAdmin"
+android:layout_marginTop="50dp"
+android:layout_marginLeft="25dp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:hint="Name of Admin"/>
+
+<EditText
+android:id="@+id/edit_text_emailAdmin"
+android:layout_marginTop="50dp"
+android:layout_marginLeft="25dp"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:hint="Email of Admin"/>
+
+    <EditText
+        android:id="@+id/edit_text_passwordAdmin"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="25dp"
+        android:inputType="numberPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Enter Password"/>
+
+<Button
+android:id="@+id/button_login_admin"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="75dp"
+android:layout_marginLeft="100dp"
+android:text="Login for Updating/Editing"/>
+
+
+
+
+    </LinearLayout>

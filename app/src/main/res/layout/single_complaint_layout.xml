@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/Complaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Complaint ID: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/id_complaint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/Complaint"
+        android:text="11"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_below="@id/Complaint"
+        android:text="Type: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Hardware"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/Type"
+        android:layout_below="@id/Complaint"
+        android:text="Software"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Machine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Type"
+        android:fontFamily="sans-serif-black"
+        android:text="Machine ID: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Machine_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Machine"
+        android:layout_below="@id/Type"
+        android:text="A1245"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_below="@id/Machine"
+        android:text="Email ID: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Email_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Email"
+        android:layout_below="@id/Machine"
+        android:text="sr45@gmail.com"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_below="@id/Email"
+        android:text="Description: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Desc"
+        android:layout_below="@id/Email"
+        android:text="The computer is not working properly."
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/status_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_below="@id/Description"
+        android:text="Status: "
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/status_header"
+        android:layout_below="@id/Description"
+        android:text="Pending"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
